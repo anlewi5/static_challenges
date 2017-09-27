@@ -4,16 +4,18 @@
 
 header {
   width: 100%;
+  height: 30px;
   background-color: maroon;
   color: white;
 }
 
 .title {
-  display: inline-block;
+  display: inline;
 }
 
 footer {
-  background-color: grey;
+  color: white;
+  background-color: DimGrey;
   float: left;
   position: relative;
 }
@@ -23,35 +25,48 @@ a {
   text-align: right;
 }
 
+p {
+  margin: 0px 0px;
+}
+
 .login {
-  text-align: right;
+  float: right;
   display: inline-block;
 }
 
 .nav-bar {
-  background-color: grey;
+  background-color: DimGrey;
   text-align: right;
   width: 100%;
-  height: 40px;
-  padding-top: 20px;
+  height: 10px;
   word-spacing: 10px;
 }
 
 .main {
+  margin: 0px 0px;
   width: 1000px;
   float: left;
-  margin: 10px;
+}
+
+.main * {
+  margin: 0px 0px;
+}
+
+.main img {
+  width: 1000px
 }
 
 .side-images {
   width: 300px;
   float: right;
-  margin: 10px;
 }
 
-.footer {
-  background-color: grey;
-  position: relative;
-  top: 400px;
-  width: 100%
+.side-images h3 {
+  margin: 0px 0px;
+  padding: 0px 10px;
+}
+
+.side-images img {
+  width: 250px;
+  margin-bottom: 25px;
 }
